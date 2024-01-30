@@ -1,1 +1,32 @@
 /* Stylesheet for the entire landing page. */
+.header {
+    background-color: #1F2937;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header_big {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.text,
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 25px;
+}
+
+.header_image {
+    width: 400px;
+}
