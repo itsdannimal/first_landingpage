@@ -3,10 +3,18 @@
     background-color: #1F2937;
 }
 
-.header_logo {
+.logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.logo_top {
+    /*border: yellow solid 1px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header_big {
@@ -16,7 +24,7 @@
 }
 
 .text,
-a {
+li {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -29,4 +37,10 @@ button {
 
 .header_image {
     width: 400px;
+}
+
+ul {
+   list-style-type: none; 
+   display: inline-flex;
+   gap: 16px;
 }
