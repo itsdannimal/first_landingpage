@@ -17,16 +17,28 @@
     justify-content: space-around;
 }
 
-.header_big {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: bolder;
-}
+ul {
+    list-style-type: none; 
+    display: inline-flex;
+    gap: 16px;
+ }
 
 .text,
 li {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header_body {
+    border: yellow solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_big {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
 }
 
 button {
@@ -37,10 +49,6 @@ button {
 
 .header_image {
     width: 400px;
+    align-self: flex-end;
 }
 
-ul {
-   list-style-type: none; 
-   display: inline-flex;
-   gap: 16px;
-}
