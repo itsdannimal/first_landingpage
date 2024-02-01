@@ -91,3 +91,27 @@ img {
     width: 200px;
     height: 200px;
 }
+
+/* Stylesheet for quote section */
+.container_quote {
+    background-color: lightgray;
+    padding: 100px 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+.credit {
+    background-color: lightgray;
+    font-size: 20px;
+    color: #1F2937;
+    font-weight: bolder;
+}
