@@ -115,3 +115,12 @@ img {
     color: #1F2937;
     font-weight: bolder;
 }
+
+/* Stylesheet for call to action section */
+.action {
+    background-color: #E5E7EB;
+}
+
+.container.action {
+
+}
