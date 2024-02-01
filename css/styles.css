@@ -1,4 +1,4 @@
-/* Stylesheet for the entire landing page. */
+/* Stylesheet for the top header */
 .header {
     background-color: #1F2937;
 }
@@ -29,10 +29,16 @@ li {
     color: #E5E7EB;
 }
 
+/* Stylesheet for the rest of the header */
+
 .header_body {
     border: yellow solid 1px;
+    padding: 100px;
+    gap: 10px;
     display: flex;
-    flex-direction: column;
+    width: 850px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .header_big {
@@ -41,14 +47,16 @@ li {
     font-weight: bolder;
 }
 
+.header_image {
+    width: 400px;
+}
+
 button {
     background-color: #3882F6;
     color: #E5E7EB;
     padding: 5px 25px;
 }
 
-.header_image {
-    width: 400px;
-    align-self: flex-end;
-}
+/* Stylesheet for the middle section, with the gallery/cards */
+
 
