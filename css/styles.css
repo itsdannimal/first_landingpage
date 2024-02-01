@@ -49,6 +49,7 @@ li {
 
 .header_image {
     width: 400px;
+    height: auto;
 }
 
 button {
@@ -59,4 +60,32 @@ button {
 
 /* Stylesheet for the middle section, with the gallery/cards */
 
+.header_cards {
+    padding-top: 30px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
 
+.information {
+    background-color: #E5E7EB;
+    /* border: 1px red solid; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+}
+
+.description {
+    font-size: 18px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
