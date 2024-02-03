@@ -119,8 +119,33 @@ img {
 /* Stylesheet for call to action section */
 .action {
     background-color: #E5E7EB;
+    padding: 50px;
 }
 
-.container.action {
+.container_action {
+    border: 1px red solid;
+    background-color: #3882F6;
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
 
+.header_action {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.text_action {
+    color: #E5E7EB;
+}
+
+.button_action {
+    border: #E5E7EB solid 2px;
+    color: #E5E7EB;
+    font-weight: bold;
 }
