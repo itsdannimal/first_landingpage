@@ -149,3 +149,17 @@ img {
     color: #E5E7EB;
     font-weight: bold;
 }
+
+/* Stylesheet for footer section */
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 8px;
+}
+
+.footer_text {
+    color: #E5E7EB;
+}
