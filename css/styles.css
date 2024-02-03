@@ -1,4 +1,4 @@
-/* Stylesheet for the top header */
+/* Stylesheet for the logo header */
 .header {
     background-color: #1F2937;
 }
@@ -29,14 +29,17 @@ li {
     color: #E5E7EB;
 }
 
-/* Stylesheet for the rest of the header */
+/* Stylesheet for the image header */
+.container_imgheader {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
 
 .header_body {
-    border: yellow solid 1px;
     padding: 100px;
     gap: 10px;
     display: flex;
-    /*width: 600px;*/
     align-items: center;
     flex-wrap: wrap;
 }
@@ -47,17 +50,16 @@ li {
     font-weight: bolder;
 }
 
-.header_image {
+.capybara_header {
     width: 400px;
     height: auto;
-    order: 4;
+    margin-right: 300px;
 }
 
 button {
     background-color: #3882F6;
     color: #E5E7EB;
     padding: 5px 25px;
-    order: 3;
 }
 
 /* Stylesheet for the middle section, with the gallery/cards */
@@ -73,7 +75,6 @@ button {
 
 .information {
     background-color: #E5E7EB;
-    /* border: 1px red solid; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -123,15 +124,13 @@ img {
 }
 
 .container_action {
-    border: 1px red solid;
     background-color: #3882F6;
     display: flex;
-    flex-flow: column;
     flex: 1;
     align-items: center;
-    justify-content: center;
     padding: 20px;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .header_action {
@@ -148,6 +147,7 @@ img {
     border: #E5E7EB solid 2px;
     color: #E5E7EB;
     font-weight: bold;
+    align-self: flex-end;
 }
 
 /* Stylesheet for footer section */
@@ -157,9 +157,9 @@ img {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    gap: 8px;
 }
 
 .footer_text {
     color: #E5E7EB;
+    gap: 8px;
 }
